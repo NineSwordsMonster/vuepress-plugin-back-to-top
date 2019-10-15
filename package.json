@@ -1,0 +1,24 @@
+{
+  "name": "@nine/vuepress-plugin-back-to-top",
+  "version": "0.0.1",
+  "description": "vuepress back to top plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NineSwordsMonster/vuepress-plugin-back-to-top.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress",
+    "back-to-top"
+  ],
+  "author": "wangjia_1919@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NineSwordsMonster/vuepress-plugin-back-to-top/issues"
+  },
+  "homepage": "https://github.com/NineSwordsMonster/vuepress-plugin-back-to-top#readme"
+}
