@@ -2,9 +2,8 @@ const { path } = require('@vuepress/shared-utils')
 
 module.exports = (options, context) => ({
   define () {
-    const { icon, customStyle, visibilityHeight } = options
+    const { customStyle, visibilityHeight } = options
     return {
-      ICON: icon || 'nine-up',
       CUSTOM_STYLE: customStyle || {
         right: '1rem',
         bottom: '6rem',
@@ -17,7 +16,7 @@ module.exports = (options, context) => ({
       VISIBILITY_HEIGHT: visibilityHeight || 400
     }
   },
-  name: '@nines/plugin-back-to-top',
+  name: '@nines/vuepress-plugin-back-to-top',
   enhanceAppFiles: [
     path.resolve(__dirname, './bin/enhanceAppFile.js')
   ],
