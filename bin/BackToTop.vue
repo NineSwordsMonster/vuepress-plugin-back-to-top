@@ -9,30 +9,31 @@
 <script>
 export default {
   name: 'BackToTop',
-  data() {
+  data () {
     return {
       visible: false,
       interval: null,
       isMoving: false,
+      /* eslint-disable no-undef */
       icon: ICON,
       customStyle: CUSTOM_STYLE,
       visibilityHeight: VISIBILITY_HEIGHT
     }
   },
-  mounted() {
+  mounted () {
     window.addEventListener('scroll', this.handleScroll)
   },
-  beforeDestroy() {
+  beforeDestroy () {
     window.removeEventListener('scroll', this.handleScroll)
     if (this.interval) {
       clearInterval(this.interval)
     }
   },
   methods: {
-    handleScroll() {
+    handleScroll () {
       this.visible = window.pageYOffset > this.visibilityHeight
     },
-    backToTop() {
+    backToTop () {
       if (this.isMoving) return
       const start = window.pageYOffset
       let i = 0
@@ -49,7 +50,7 @@ export default {
         i++
       }, 16.7)
     },
-    easeInOutQuad(t, b, c, d) {
+    easeInOutQuad (t, b, c, d) {
       if ((t /= d / 2) < 1) return c / 2 * t * t + b
       return -c / 2 * (--t * (t - 2) - 1) + b
     }
@@ -66,7 +67,7 @@ export default {
     cursor: pointer;
     &::hover
       background: #d5dbe7;
-    i 
+    i
       font-size 1.6rem
       color $accentColor
   .fade-enter-active,
