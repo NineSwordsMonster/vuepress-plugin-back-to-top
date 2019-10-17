@@ -7,6 +7,16 @@
 
 nine's Back-to-top plugin
 
+## 使用
+```sh
+npm i @nines/vuepress-plugin-back-to-top
+```
+
+> component name | **BackToTop**
+
+```vue
+<BackToTop></BackToTop>
+```
 ## 配置
 
 |name|类型|默认值|
