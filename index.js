@@ -10,13 +10,12 @@ module.exports = (options, context) => ({
         width: '2.5rem',
         height: '2.5rem',
         'border-radius': '.25rem',
-        'line-height': '2.5rem',
-        backgroundColor: 'rgba(231, 234, 241,.5)'
+        'line-height': '2.5rem'
       },
       VISIBILITY_HEIGHT: visibilityHeight || 400
     }
   },
-  name: '@nines/vuepress-plugin-back-to-top',
+  name: '@vuepress-reco/vuepress-plugin-back-to-top',
   enhanceAppFiles: [
     path.resolve(__dirname, './bin/enhanceAppFile.js')
   ],

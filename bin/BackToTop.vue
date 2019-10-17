@@ -15,7 +15,6 @@ export default {
       interval: null,
       isMoving: false,
       /* eslint-disable no-undef */
-      icon: ICON,
       customStyle: CUSTOM_STYLE,
       visibilityHeight: VISIBILITY_HEIGHT
     }
@@ -60,6 +59,10 @@ export default {
 
 <style lang="stylus" scoped>
 .back-to-ceiling
+  background-color: #fff
+  background-color: var(--background-color)
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2)
+  box-shadow: var(--box-shadow)
   position: fixed;
   display: inline-block;
   text-align: center;

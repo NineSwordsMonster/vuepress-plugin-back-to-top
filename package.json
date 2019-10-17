@@ -1,5 +1,5 @@
 {
-  "name": "@nine/vuepress-plugin-back-to-top",
+  "name": "@nines/vuepress-plugin-back-to-top",
   "version": "0.0.1",
   "description": "vuepress back to top plugin",
   "main": "index.js",
