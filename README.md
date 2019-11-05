@@ -5,25 +5,30 @@
 ![npm (scoped)](https://img.shields.io/npm/v/@nines/vuepress-plugin-back-to-top)
 ![npm](https://img.shields.io/npm/dt/@nines/vuepress-plugin-back-to-top)
 
-nine's Back-to-top plugin
+> Back-to-top plugin for vuepress
 
 ## 使用
+
+|使用位置|值|
+|-|-|
+|plugin name|@nines/vuepress-plugin-back-to-top|
+|component name|BackToTop（主题开发时使用）|
+
 ```sh
 npm i @nines/vuepress-plugin-back-to-top
 ```
 
-> component name | **BackToTop**
-
-```vue
-<BackToTop></BackToTop>
-```
-## 配置
+## 参数
 
 |name|类型|默认值|
 |----|----|----|
 |icon|String|nine-up|
 |customStyle|Object|*customStyle* |
 |visibilityHeight|number|400|
+
+```vue
+<BackToTop ></BackToTop>
+```
 
 customStyle: 
   ```js
