@@ -1,6 +1,6 @@
 {
   "name": "@nines/vuepress-plugin-back-to-top",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vuepress back to top plugin",
   "main": "index.js",
   "scripts": {
