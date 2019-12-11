@@ -1,5 +1,5 @@
 {
-  "name": "@nines/vuepress-plugin-back-to-top",
+  "name": "@nine-theme/vuepress-plugin-back-to-top",
   "version": "0.0.5",
   "description": "vuepress back to top plugin",
   "main": "index.js",
@@ -10,12 +10,15 @@
     "type": "git",
     "url": "git+ssh://git@github.com/nine-theme/vuepress-plugin-back-to-top.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/nine-theme"
+  },
   "keywords": [
     "vue",
     "vuepress",
     "back-to-top"
   ],
-  "author": "wangjia_1919@163.com",
+  "author": "NineSwordsMonster",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nine-theme/vuepress-plugin-back-to-top/issues"
