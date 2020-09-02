@@ -11,11 +11,11 @@
 
 |使用位置|值|
 |-|-|
-|plugin name|@nines/vuepress-plugin-back-to-top|
+|plugin name|@nine-theme/vuepress-plugin-back-to-top|
 |component name|BackToTop（主题开发时使用）|
 
 ```sh
-npm i @nines/vuepress-plugin-back-to-top
+npm i @nine-theme/vuepress-plugin-back-to-top
 ```
 
 ## 参数
