@@ -1,10 +1,10 @@
-# plugin-back-to-top
-![GitHub last commit](https://img.shields.io/github/last-commit/NineSwordsMonster/vuepress-plugin-back-to-top)
+# vuepress-plugin-back-to-top
+![GitHub last commit](https://img.shields.io/github/last-commit/nine-theme/vuepress-plugin-back-to-top) 
+![npm (scoped)](https://img.shields.io/npm/v/@nine-theme/vuepress-plugin-back-to-top) 
+![npm](https://img.shields.io/npm/dt/@nine-theme/vuepress-plugin-back-to-top) 
+![NPM](https://img.shields.io/npm/l/@nine-theme/vuepress-plugin-back-to-top)
 
-![NPM](https://img.shields.io/npm/l/@nines/vuepress-plugin-back-to-top)
-![npm (scoped)](https://img.shields.io/npm/v/@nines/vuepress-plugin-back-to-top)
-![npm](https://img.shields.io/npm/dt/@nines/vuepress-plugin-back-to-top)
-
+---
 > Back-to-top plugin for vuepress
 
 ## 使用
