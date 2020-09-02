@@ -1,4 +1,4 @@
-# vuepress-plugin-back-to-top
+# @nine-theme/vuepress-plugin-back-to-top
 ![GitHub last commit](https://img.shields.io/github/last-commit/nine-theme/vuepress-plugin-back-to-top) 
 ![npm (scoped)](https://img.shields.io/npm/v/@nine-theme/vuepress-plugin-back-to-top) 
 ![npm](https://img.shields.io/npm/dt/@nine-theme/vuepress-plugin-back-to-top) 
