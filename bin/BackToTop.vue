@@ -43,7 +43,7 @@ export default {
   mounted() {
     window.addEventListener("scroll", this.throttle(this.handleScroll, 500));
   },
-  beforeUnmount() {
+  beforeDestroy() {
     window.removeEventListener("scroll", this.throttle(this.handleScroll, 500));
   },
   methods: {
