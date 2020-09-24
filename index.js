@@ -15,7 +15,7 @@ module.exports = (options) => ({
       VISIBILITY_HEIGHT: visibilityHeight || 400
     }
   },
-  name: '@nines/vuepress-plugin-back-to-top',
+  name: '@nine-theme/vuepress-plugin-back-to-top',
   enhanceAppFiles: [
     path.resolve(__dirname, './bin/enhanceAppFile.js')
   ],
